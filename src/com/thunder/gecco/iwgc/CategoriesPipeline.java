@@ -12,6 +12,7 @@ import java.util.List;
  * Created by zhangjingjing on 2016/12/5.
  */
 @PipelineName("categoriesPipeline")
+
 public class CategoriesPipeline implements Pipeline<WechatCategory> {
     public static List<HttpRequest> sortRequests = new ArrayList<HttpRequest>();
     @Override
